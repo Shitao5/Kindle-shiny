@@ -41,7 +41,7 @@ ui <- fluidPage(
                     tags$li("点击 Browse；"),
                     tags$li("选择 `Kindle/Documents` 文件夹下的 `My Clippings.txt` 文件，点击打开；"),
                     tags$li("选择需要进行的数据处理；"),
-                    tags$li("输入需要导出的书名；"),
+                    tags$li("输入需要导出的书名，不填则输出全部笔记；"),
                     tags$li("点击「开始处理！」；"),
                     tags$li("下载所需要的文件。"),
                 )
